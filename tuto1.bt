@@ -32,7 +32,12 @@
                 {
                   "key": "attribute",
                   "type": "string",
-                  "value": "isRinging"
+                  "value": "state"
+                },
+                {
+                  "key": "value",
+                  "type": "string",
+                  "value": "on"
                 }
               ],
               "outputParams": []
@@ -56,6 +61,11 @@
                 },
                 {
                   "key": "attribute",
+                  "type": "string",
+                  "value": "state"
+                },
+                {
+                  "key": "value",
                   "type": "string",
                   "value": "on"
                 }
