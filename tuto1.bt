@@ -27,7 +27,7 @@
                 {
                   "key": "deviceName",
                   "type": "string",
-                  "value": "SmartPhone"
+                  "value": "craftPhone"
                 },
                 {
                   "key": "attribute",
@@ -52,7 +52,7 @@
                 {
                   "key": "deviceName",
                   "type": "string",
-                  "value": "SmartTV"
+                  "value": "craftTV"
                 },
                 {
                   "key": "attribute",
