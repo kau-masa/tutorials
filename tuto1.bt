@@ -37,9 +37,9 @@
               ],
               "outputParams": [
                 {
-                  "key": "PhoneState",
+                  "key": "state",
                   "type": "entityKnowledge",
-                  "value": "value"
+                  "value": "PhoneState"
                 }
               ]
             },
