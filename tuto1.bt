@@ -25,7 +25,7 @@
               "name": "SetDeviceValue",
               "inputParams": [
                 {
-                  "key": "deviceName",
+                  "key": "device",
                   "type": "string",
                   "value": "craftPhone"
                 },
@@ -50,7 +50,7 @@
               "name": "SetDeviceValue",
               "inputParams": [
                 {
-                  "key": "deviceName",
+                  "key": "device",
                   "type": "string",
                   "value": "craftTV"
                 },
