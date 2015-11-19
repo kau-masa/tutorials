@@ -14,20 +14,61 @@
         "metadata": {
           "label": ""
         },
-        "properties": {
-          "name": "Speech",
-          "inputParams": [
-            {
-              "key": "message",
-              "type": "string",
-              "value": "Hello"
-            }
-          ],
-          "outputParams": []
-        },
-        "children": [],
-        "id": "9afa9d16-0693-42fc-a6cb-92233a1fb6c7",
-        "type": "action"
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "SetDeviceValue",
+              "inputParams": [
+                {
+                  "key": "deviceName",
+                  "type": "string",
+                  "value": "SmartPhone"
+                },
+                {
+                  "key": "attribute",
+                  "type": "string",
+                  "value": "isRinging"
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "11fe0724-367c-4563-8fab-91927e303596",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": ""
+            },
+            "properties": {
+              "name": "SetDeviceValue",
+              "inputParams": [
+                {
+                  "key": "deviceName",
+                  "type": "string",
+                  "value": "SmartTV"
+                },
+                {
+                  "key": "attribute",
+                  "type": "string",
+                  "value": "on"
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "dcbea792-eb6f-4c06-9db8-fba89cb76631",
+            "type": "action"
+          }
+        ],
+        "id": "ad36d45c-7791-435f-9367-efa2b9af6b60",
+        "type": "sequence"
       }
     ],
     "id": "39d1f2f1-36a0-448a-8dd7-312e0be081f3"
