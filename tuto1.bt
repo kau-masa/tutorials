@@ -30,7 +30,7 @@
                   "value": "craftPhone"
                 },
                 {
-                  "key": "attribut",
+                  "key": "attribute",
                   "type": "string",
                   "value": "state"
                 }
